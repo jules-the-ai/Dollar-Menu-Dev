@@ -1,0 +1,12 @@
+@import 'tailwindcss';
+
+@theme {
+  --font-display: 'Bowlby One', Impact, sans-serif;
+  --color-ketchup: #f7472e;
+  --color-mustard: #fbbd23;
+  --color-pickle: #195b43;
+  --color-cream: #fff8eb;
+  --color-ink: #1e2931;
+}
+
+@import './generated.css';

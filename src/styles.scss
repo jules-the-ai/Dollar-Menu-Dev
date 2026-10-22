@@ -1,0 +1,13 @@
+$ink: #1e2931;
+$mustard: #fbbd23;
+$cream: #fff8eb;
+
+:root { color: $ink; background: $cream; font-family: 'DM Sans', ui-sans-serif, system-ui, sans-serif; scroll-behavior: smooth; }
+::selection { background: $mustard; color: $ink; }
+body { min-width: 320px; overflow-x: hidden; }
+
+.eyebrow { display: inline-flex; align-items: center; gap: .5rem; border: 2px solid $ink; border-radius: 9999px; background: $mustard; padding: .25rem .75rem; font-size: .75rem; font-weight: 800; letter-spacing: .16em; text-transform: uppercase; box-shadow: 3px 3px 0 $ink; }
+.menu-card { position: relative; overflow: hidden; border: 3px solid $ink; border-radius: 1.75rem; background: white; padding: 1.5rem; box-shadow: 7px 7px 0 $ink; transition: transform .2s, box-shadow .2s; &:hover { transform: translateY(-.25rem); box-shadow: 11px 11px 0 $ink; } }
+.doodle { position: absolute; pointer-events: none; user-select: none; }
+.sticker { display: inline-flex; align-items: center; border: 2px solid $ink; border-radius: .75rem; background: $mustard; padding: .5rem .75rem; font-size: .875rem; font-weight: 800; box-shadow: 4px 4px 0 $ink; }
+.burger-line { display: block; width: 1.5rem; height: .25rem; border-radius: 9999px; background: $ink; }

@@ -1,0 +1,72 @@
+:root {
+  color: #1e2931;
+  background: #fff8eb;
+  font-family: "DM Sans", ui-sans-serif, system-ui, sans-serif;
+  scroll-behavior: smooth;
+}
+
+::selection {
+  background: #fbbd23;
+  color: #1e2931;
+}
+
+body {
+  min-width: 320px;
+  overflow-x: hidden;
+}
+
+.eyebrow {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  border: 2px solid #1e2931;
+  border-radius: 9999px;
+  background: #fbbd23;
+  padding: 0.25rem 0.75rem;
+  font-size: 0.75rem;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  box-shadow: 3px 3px 0 #1e2931;
+}
+
+.menu-card {
+  position: relative;
+  overflow: hidden;
+  border: 3px solid #1e2931;
+  border-radius: 1.75rem;
+  background: white;
+  padding: 1.5rem;
+  box-shadow: 7px 7px 0 #1e2931;
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+.menu-card:hover {
+  transform: translateY(-0.25rem);
+  box-shadow: 11px 11px 0 #1e2931;
+}
+
+.doodle {
+  position: absolute;
+  pointer-events: none;
+  user-select: none;
+}
+
+.sticker {
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #1e2931;
+  border-radius: 0.75rem;
+  background: #fbbd23;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.875rem;
+  font-weight: 800;
+  box-shadow: 4px 4px 0 #1e2931;
+}
+
+.burger-line {
+  display: block;
+  width: 1.5rem;
+  height: 0.25rem;
+  border-radius: 9999px;
+  background: #1e2931;
+}
